@@ -2,7 +2,7 @@
 
 In today's political climate, biased and untrustworthy news articles are everywhere. One news site may claim the Democrats are trying to monitor the enitre American populace with Big Government, while another says that the Republicans are busy trying to deport everyone who doesn't agree with their tax agenda. 
 
-While it is obvious to most people that neither of these two examples are true, it becomes more difficult to distinguish where bias plays a role in more subtle articles. 
+While it is obvious to most people that neither of these two examples are true, it becomes more difficult to distinguish where bias plays a role in more subtle articles. Most people don't have the time, or sometimes the training to sift through dense political articles to determine what is actually true and what is a product of a manipulative news site. Our app simplifies this problem by doing the work for you. 
 
 ### Markdown
 
