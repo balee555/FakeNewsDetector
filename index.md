@@ -4,7 +4,7 @@ In today's political climate, biased and untrustworthy news articles are everywh
 
 While it is obvious to most people that neither of these two examples are true, it becomes more difficult to distinguish the role of bias in more subtle articles. Most people don't have the time, or sometimes the training to sift through dense political articles to determine what is actually true and what is a product of a manipulative news site. Our app simplifies this problem by doing the work for you. 
 
-### Markdown
+### How it Works
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
