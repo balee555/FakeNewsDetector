@@ -12,9 +12,9 @@ First, we extract named entities. By this we mean the names of organizations and
 Will Donald Trump Destroy the Presidency?
 He disdains the rule of law. He’s trampling norms of presidential behavior. And he’s bringing vital institutions down with him.
 
-In this sentence we would extract 
+In this sentence we would extract the entity, ie ***Donald Trump***, and then analyze the sentences around it. 
 
-!tested [Image of Trump](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
+//!tested //[Image of Trump](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
 
 ### Jekyll Themes
 
