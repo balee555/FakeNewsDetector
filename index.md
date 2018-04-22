@@ -17,7 +17,6 @@ In this sentence we would extract
 ![useful image]({{ site.url }}/src/trump.jpg)
 ```markdown
 Syntax highlighted code block
-
 ![Image of Trump](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
 
 
