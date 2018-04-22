@@ -1,4 +1,6 @@
-## ![Logo](https://github.com/balee555/FakeNewsDetector/blob/master/src/logo.png) Welcome to the FakeNews Detector App 
+## Welcome to the FakeNews Detector App 
+
+[Logo](https://github.com/balee555/FakeNewsDetector/blob/master/src/logo.png)
 
 In today's political climate, biased and untrustworthy news articles are everywhere. One news site may claim the Democrats are trying to monitor the enitre American populace with Big Government, while another says that the Republicans are busy trying to deport everyone who doesn't agree with their tax agenda. 
 
