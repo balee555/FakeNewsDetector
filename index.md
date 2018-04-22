@@ -14,7 +14,7 @@ He disdains the rule of law. He’s trampling norms of presidential behavior. An
 
 In this sentence we would extract 
 
-![Image of Trump](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
+!tested [Image of Trump](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
 
 ### Jekyll Themes
 
