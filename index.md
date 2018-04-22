@@ -7,23 +7,34 @@ While it is obvious to most people that neither of these two examples are true, 
 ## How it Works
 
 ### Step 1:
-First, we extract named entities. By this we mean the names of organizations and polititians. Take for example the headline of this
+First, we extract named entities. By this we mean the names of organizations and polititians. Take for example the headline of this article:
 
-Breitbart article by famous far right political commentator Milo Yiannopoulos:
+Trump Presidency Is Taking The Luster Off Trump Tower
 
-The Solution to Online Harrassment is Simple: Women Should Log Off
+Firstly, the algorithm breaks down the headline into the entity and adjective phrases. In this case the subject is the ***Trump Presidency*** and the phrase is ***Taking The Luster Off***.
 
-In this sentence we would extract the entity, ***Donald Trump***, and then analyze the sentences around it. ***He*** also references Donald Trump, so the program will analyze those as well.
+### Step 2:
+It then uses sentiment analysis to determine if there is a positive or negative feeling about the entity. In this case, the phrase ***Taking the Luster Off*** is a negative phrase. Thus it concludes that there is a negative sentiment to this statement, and outputs the following:
 
-Radial Kernel: (Explanation:)
-![RadialKernel](http://scikit-learn.org/stable/_images/sphx_glr_plot_svm_kernels_003.png)
+[L,-.1234] 
+
+The L denotes that the headline is biased towards the Left/Liberal side, while the -.1234 denotes the degree of bias. In this case it is xyz percent liberally leaning...
+
+
+
+
+
 
 ## What We Used
 
-#### SVM: Support Vector Machine (Radial Basis Function/ Radial Kernel)
+#### SVM: Support Vector Machine 
 #### NLTK: Natural Language Toolkit
 #### Textblob: (Wrappers for NLTK)
-#### Sci-Kit Learn	(Machine Learning)
 
+#### Sci-Kit Learn	(Machine Learning)
+Radial Kernel:
+We used the Radial Kernel tool of Sci-Kit to plot the data points we derived from the articles that our program analyzed. The kernel makes hyperplane that is within the bounds that we set for the different groups, in this case [-1,1] The closer to -1 the more liberal an article is, and the closer to 1, the more conservative. The result would look something like the image below:
+
+![RadialKernel](http://scikit-learn.org/stable/_images/sphx_glr_plot_svm_kernels_003.png)
 
 
