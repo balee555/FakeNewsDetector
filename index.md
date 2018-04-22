@@ -18,7 +18,7 @@ In this sentence we would extract
 ```markdown
 Syntax highlighted code block
 
-![Image of Yaktocat](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
+![Image of Trump](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
 
 
 # Header 1
