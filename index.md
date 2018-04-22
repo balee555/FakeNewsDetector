@@ -7,18 +7,15 @@ While it is obvious to most people that neither of these two examples are true, 
 ## How it Works
 
 ### Step 1:
-First, we extract named entities. By this we mean the names of organizations and polititians. Take for example the headline of the Atlantic article:
+First, we extract named entities. By this we mean the names of organizations and polititians. Take for example the headline of this
 
-Will Donald Trump Destroy the Presidency?
-He disdains the rule of law. He’s trampling norms of presidential behavior. And he’s bringing vital institutions down with him.
+Breitbart article by famous far right political commentator Milo Yiannopoulos:
 
-In this sentence we would extract the entity, ***Donald Trump***, and then analyze the sentences around it. 
+The Solution to Online Harrassment is Simple: Women Should Log Off
 
-//!tested //[Image of Trump](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
+In this sentence we would extract the entity, ***Donald Trump***, and then analyze the sentences around it. ***He*** also references Donald Trump, so the program will analyze those as well.
+
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/balee555/FakeNewsDetector/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
 
