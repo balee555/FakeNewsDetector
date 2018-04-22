@@ -14,6 +14,7 @@ He disdains the rule of law. He’s trampling norms of presidential behavior. An
 
 In this sentence we would extract 
 
+![useful image]({{ site.url }}/src/trump.jpg)
 ```markdown
 Syntax highlighted code block
 
