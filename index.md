@@ -14,28 +14,7 @@ He disdains the rule of law. He’s trampling norms of presidential behavior. An
 
 In this sentence we would extract 
 
-![useful image]({{ site.url }}/src/trump.jpg)
-```markdown
-Syntax highlighted code block
 ![Image of Trump](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
