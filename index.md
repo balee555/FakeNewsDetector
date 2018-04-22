@@ -26,7 +26,7 @@ The L denotes that the headline is biased towards the Left/Liberal side, while t
 
 Can you guess who might have published this article? 
 
-The answer is: ***Huffington Post**. Huffington Post is a well known liberal news outlet, and the output of our program aligns with the their  historically demonstrated ideological bias, heavily left leaning. 
+The answer is: **Huffington Post**. Huffington Post is a well known liberal news outlet, and the output of our program aligns with the their  historically demonstrated ideological bias, heavily left leaning. 
 
 
 ## What We Used
