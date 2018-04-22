@@ -19,9 +19,9 @@ It then uses sentiment analysis to determine if there is a positive or negative 
 ### Step 3:
 Thus it concludes that there is a negative sentiment to this statement, and outputs the following:
 
-***[L,-.1234]***
+***[L,.1234]***
 
-The L denotes that the headline is biased towards the Left/Liberal side, while the -.1234 denotes the degree of bias. In this case it is xyz percent liberally leaning...
+The L denotes that the headline is biased towards the Left/Liberal side, while the .1234 denotes the degree of bias. In this case it is xyz percent liberally leaning...
 
 Can you guess who might have published this article? 
 
