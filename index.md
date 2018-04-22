@@ -29,8 +29,6 @@ The answer is: Huffington Post. Huffington Post is a well known liberal news out
 
 
 
-
-
 ## What We Used
 
 #### SVM: Support Vector Machine 
