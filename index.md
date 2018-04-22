@@ -19,13 +19,13 @@ It then uses sentiment analysis to determine if there is a positive or negative 
 ### Step 3:
 Thus it concludes that there is a negative sentiment to this statement, and outputs the following:
 
-[L,-.1234] 
+***[L,-.1234]***
 
 The L denotes that the headline is biased towards the Left/Liberal side, while the -.1234 denotes the degree of bias. In this case it is xyz percent liberally leaning...
 
 Can you guess who might have published this article? 
 
-The answer is: Huffington Post. Huffington Post is a well known liberal news outlet, and the output of our program aligns with the their  historically demonstrated ideological bias, heavily left leaning. 
+The answer is: ***Huffington Post**. Huffington Post is a well known liberal news outlet, and the output of our program aligns with the their  historically demonstrated ideological bias, heavily left leaning. 
 
 
 
