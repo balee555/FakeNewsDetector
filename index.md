@@ -1,6 +1,5 @@
 ## Welcome to the FakeNews Detector App 
-
-![Logo](https://github.com/balee555/FakeNewsDetector/blob/master/src/logo.png)
+<div style="text-align:center"><img src="https://github.com/balee555/FakeNewsDetector/blob/master/src/logo.png" /></div>
 
 In today's political climate, biased and untrustworthy news articles are everywhere. One news site may claim the Democrats are trying to monitor the enitre American populace with Big Government, while another says that the Republicans are busy trying to deport everyone who doesn't agree with their tax agenda. 
 
@@ -11,7 +10,7 @@ While it is obvious to most people that neither of these two examples are true, 
 ### Step 1:
 First, we extract named entities. By this we mean the names of organizations and polititians, for example, Hillary CLinton, Donald Trump, or the NRA. For a more specific demonstration, we will use the headline of this article:
 
-Trump Presidency Is Taking The Luster Off Trump Tower
+***Trump Presidency Is Taking The Luster Off Trump Tower***
 
 Firstly, the algorithm breaks down the headline into the entity and adjective phrases. In this case the subject is the ***Trump Presidency*** and the phrase is ***Taking The Luster Off***.
 
@@ -21,7 +20,7 @@ It then uses sentiment analysis to determine if there is a positive or negative 
 ### Step 3:
 Thus it concludes that there is a negative sentiment to this statement, and outputs the following:
 
-***[L,.1234]***
+***[L,.96]***
 
 The L denotes that the headline is biased towards the Left/Liberal side, while the .1234 denotes the degree of bias. In this case it is xyz percent liberally leaning...
 
@@ -30,16 +29,15 @@ Can you guess who might have published this article?
 The answer is: ***Huffington Post**. Huffington Post is a well known liberal news outlet, and the output of our program aligns with the their  historically demonstrated ideological bias, heavily left leaning. 
 
 
-
 ## What We Used
-
-#### SVM: Support Vector Machine 
-#### NLTK: Natural Language Toolkit
-#### Textblob: (Wrappers for NLTK)
+  - NLTK: Natural Language Toolkit
+  - Textblob: Wrappers for NLTK
+  - Sci-Kit Learn: Machine Learning
+  - SVM: Support Vector Machine 
 
 #### Sci-Kit Learn	(Machine Learning)
-Radial Kernel:
-We used the Radial Kernel tool of Sci-Kit to plot the data points we derived from the articles that our program analyzed. The kernel makes hyperplane that is within the bounds that we set for the different groups, in this case [-1,1] The closer to -1 the more liberal an article is, and the closer to 1, the more conservative. The result would look something like the image below:
+A SVM with Radial Kernel:
+We used a radial kernel for our SVM classifier from Sci-Kit to derive and plot features of our corpus. We tested linear and polynomial kernels, however the radial kernel outperformed both. We hypothesize that journalists and writers may use quotations or sarcasm when writing, which creates 'pockets' of left and right leaning cluster in k-space. The kernel makes hyperplanes around the bounds for the different groups, with a tune-able tolerance metric for flexiblity. The distance from the hyperplane to the article's k-dimensional datapoint is used to create a metric for measuring bias. The closer to -1 the more liberal an article is, and the closer to 1, the more conservative. Our SVM classifies our articles similar to the picture below:
 
 ![RadialKernel](http://scikit-learn.org/stable/_images/sphx_glr_plot_svm_kernels_003.png)
 
