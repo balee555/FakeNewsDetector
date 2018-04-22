@@ -18,7 +18,8 @@ In this sentence we would extract
 ```markdown
 Syntax highlighted code block
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://balee555.github.io/FakeNewsDetector/src/trump.jpg)
+
 
 # Header 1
 ## Header 2
