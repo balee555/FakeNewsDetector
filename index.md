@@ -16,6 +16,12 @@ The Solution to Online Harrassment is Simple: Women Should Log Off
 In this sentence we would extract the entity, ***Donald Trump***, and then analyze the sentences around it. ***He*** also references Donald Trump, so the program will analyze those as well.
 
 
-### Jekyll Themes
+## What We Used
+
+#### SVM: Support Vector Machine (Radial Basis Function/ Radial Kernel)
+#### NLTK: Natural Language Toolkit
+#### Textblob: (Wrappers for NLTK)
+#### Sci-Kit Learn	(Machine Learning)
+
 
 
